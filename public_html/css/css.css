@@ -1,0 +1,66 @@
+body {
+    font-family: Verdana regular sans-serif;
+    font-size: 21px;
+    line-height: normal;
+    color: #333;
+    background-color: #fff;
+}
+form 
+{
+ background-color:none;
+
+ }
+fieldset
+{
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }
+legend 
+{
+ color:#DF3F3F;
+ font-weight:bold
+ }
+label 
+{
+ margin-top:10px;
+ display:block;
+ }
+label.inline 
+{
+ display:inline;
+ margin-right:50px;
+ }
+input, textarea, select, option 
+{
+ background-color:white;
+ }
+input, textarea, select {
+    /* padding: 3px; */
+    border: 3px solid #EDC6B9;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+}
+select
+{
+ margin-top:10px;
+ }
+input[type=radio] 
+{
+ background-color:#665e5c;
+ border:none;
+ width:10px;
+ }
+input[type=submit]
+{
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #71020d;
+ cursor:pointer;
+ }
+input, button, select, textarea {
+    font-family: Verdana Regular serif;
+    font-size: smaller;
+    line-height: inherit;
+}

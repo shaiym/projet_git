@@ -1,0 +1,74 @@
+
+<html>
+    <head>
+        <title>Inscription</title>
+        <meta charset="UTF-8">
+          <link rel="stylesheet" href="css/css.css" type="text/css">
+         <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    </head>
+    <body>
+        <form action="tpc.php" method='post'/>
+       <div class="banniere">  
+        <img src="img/taptachiche.jpg" width="1950px" height="auto">
+ 
+             <ul class="nav nav-tabs">
+    <li class="active">
+        <a href="accueil.html"><b>Accueil</b></a>
+    </li>
+    <li>
+        <a href="connexion.html"><b>Connexion</b></a>
+    </li>
+    <li>
+        <a href="contact.html"><b>Contact</b></a>
+    </li>
+    </li>
+    </ul>
+        
+          <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4">   
+            <label for="name"><strong>Nom:</strong></label>
+            <input type="text" name="nom" value=""/>
+		</div>
+		<div class="col-md-4"> 
+            <label for="surname"><strong>Prénom:</strong></label>
+            <input type="text" name="prenom" value=""/>
+		</div>
+		<div class="col-md-4"> 
+            <label for="date"> <strong>Date de Naissance:</strong></label>
+            <input type="date" name="anniversaire">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4"> 
+            <label for="login" ><strong>Pseudo:</strong></label>
+            <input type="text" name="login" id="login"/>
+		</div>
+		<div class="col-md-4"> 
+            <label for="pass"><strong>Mot de passe:</strong></label>
+            <input type="password" name="pass" id="pass"/>
+       
+		</div>
+		<div class="col-md-4"> 
+            <label for="mail" ><strong>Adresse mail:</strong></label>
+            <input type="text" name="mail" value=""/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4"> 
+            <label for="adresse" ><strong>Adresse :</strong></label>
+            <input type="text" id="adresse" name="adresse" required pattern="[^a-z][A-Z0-9\s]{1,38}" title="L'adresse doit contenir maximum 38 caracteres." />
+         
+		</div>
+		<div class="col-md-4"> 
+            <label for="number" ><strong>Code Postale:</strong></label>
+           <input type="text" name="CP" required pattern="\d{1,5}" title="Le code postale doit contenir maximum 5 chiffres" />
+            </div>
+            </div>
+              <br>
+              
+              <button type="submit" value="inscrit">S'inscrire</button>
+    </body>
+</html>
